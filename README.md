@@ -30,7 +30,7 @@ import DTOs from './DTOs';
 
 @Path('/auth')
 export default class AuthController {
-  @BodyGuard(DTOs.LoginDTO)
+  @BodyGuard
   @Path('/login')
   @POST
   public login(data: DTOs.LoginDTO) {

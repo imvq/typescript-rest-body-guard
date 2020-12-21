@@ -1,6 +1,6 @@
 {
   "name": "typescript-rest-body-guard",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Body-checking decorator for typescript-rest",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
