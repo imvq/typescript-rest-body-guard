@@ -10,7 +10,7 @@ Or using yarn:
 $ yarn add typescript-rest-body-guard
 ```
 ## Preconditions
-You must provide a DTO class representing you POST data for the request.
+You must provide a DTO class representing your POST data for the request.
 ```ts
 // DTOs.ts
 
