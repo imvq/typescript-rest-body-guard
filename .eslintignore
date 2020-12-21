@@ -1,0 +1,5 @@
+# ESLint must ignore:
+/node_modules
+/build
+/dist
+/lib

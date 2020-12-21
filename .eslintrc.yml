@@ -1,0 +1,44 @@
+root: true
+
+env:
+  browser: true
+  es6: true
+  node: true
+
+extends: 'airbnb-base'
+
+settings:
+  import/resolver:
+    node:
+      moduleDirectory: ['./node_modules', './src']
+      extensions: ['.js', '.ts']
+
+globals:
+  Atomics: readonly
+  SharedArrayBuffer: readonly
+
+parser: '@typescript-eslint/parser'
+
+parserOptions:
+  ecmaVersion: 12
+  sourceType: module
+
+plugins: ['@typescript-eslint']
+
+rules:
+  radix: off
+  dot-notation: off
+  comma-dangle: off
+  object-curly-newline: off
+  max-classes-per-file: off
+  prefer-destructuring: off
+  class-methods-use-this: off
+  no-useless-constructor: off
+  no-empty-function: off
+  no-unused-vars: off
+  no-console: off
+  import/extensions: off
+  import/prefer-default-export: off
+  import/no-absolute-path: off
+  import/no-extraneous-dependencies: off
+  import/no-named-as-default: off

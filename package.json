@@ -1,0 +1,32 @@
+{
+  "name": "typescript-rest-body-guard",
+  "version": "1.0.0",
+  "description": "Body-checking decorator for typescript-rest",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mavedev/typescript-rest-body-guard.git"
+  },
+  "keywords": [
+    "typescript-rest",
+    "body"
+  ],
+  "author": "Cirill Usachov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mavedev/typescript-rest-body-guard/issues"
+  },
+  "homepage": "https://github.com/mavedev/typescript-rest-body-guard#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "typescript": "^4.1.3",
+    "typescript-rest": "^3.0.2"
+  }
+}
