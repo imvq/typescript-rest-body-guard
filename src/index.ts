@@ -35,7 +35,7 @@ export function BodyGuard(
 
     const observableInstance = new (dtoClass.type as { new (): any })();
     Object.getOwnPropertyNames(observableInstance).forEach((key) => {
-      if (!bodyData[key]) {
+      if (bodyData[key] === undefined) {
         throw new Errors.BadRequestError(
           `Request data is missing the '${key}' parameter.`
         );
