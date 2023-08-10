@@ -1,4 +1,6 @@
 # BodyGuard for typescript-rest
+⚠ __This codebase is no longer maintained.__ ⚠
+
 BodyGuard is a library to use in conjunction with [typescript-rest](https://github.com/thiagobustamante/typescript-rest#readme). The library provides a decorator to check if request body data contains all arguments you need.
 ## Installation
 Using npm:
